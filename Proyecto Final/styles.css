@@ -1,0 +1,113 @@
+body{
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.principal{
+  background: url("hero_bg_2.jpg") no-repeat;
+  height: 600px;
+}
+
+nav{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 10px 50px;
+}
+.logo{
+  display: inline-block;
+  background: url("logo.png") no-repeat;
+  width: 117px;
+  height: 40px;
+  text-indent: -200px;
+  overflow: hidden;
+  margin: 0px;
+}
+.menu{
+  text-transform: uppercase;
+  text-align: center;
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+  justify-content: space-around;
+  align-items: center;
+  position: sticky;
+  position: -webkit-sticky;
+  top: -1px;
+  z-index: 1;
+}
+.menu li{
+  display:inline-block;
+  padding: 0px;
+}
+.menu a{
+  border: 1px solid transparent;
+  color: white;
+  text-decoration: none;
+  padding: 0px 10px;
+}
+.menu a:hover{
+  color: #FFA33E;
+  cursor: pointer;
+}
+
+h2 span {
+  display: block;
+  justify-content: space-between;
+}
+.title-cursive{
+  font-family: 'Pinyon Script', cursive;
+  font-size: 2em;
+  color: #FFA33E;
+  text-align: center;
+  font-weight: normal;
+}
+.title-sansserif{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  position: relative;
+  top: -30px;
+}
+.content-header{
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  font-weight: normal;
+  position: relative;
+  top: -20px;
+}
+
+.title-sansserifblack{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  position: relative;
+  top: -30px;
+}
+.contentblack{
+  color: black;
+  text-align: center;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.container{
+  width: 1000px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 10px;
+}
+.section1{
+  padding: 0px 20px;
+}
+.imgsection1{
+  max-width: 490px;
+}
