@@ -356,7 +356,7 @@ input:focus{
   flex-wrap: wrap;
 }
 .box-menu8-2{
-  width: 400px;
+  width: 600px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -369,7 +369,7 @@ input:focus{
 }
 
 .box-menu8 p{
-  padding: 0px 5px 0px 0px;
+  padding: 0px 10px;
 }
 
 footer{
